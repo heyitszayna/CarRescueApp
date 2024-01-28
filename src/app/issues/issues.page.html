@@ -1,0 +1,178 @@
+
+<ion-header [translucent]="true">
+
+  <ion-toolbar align="center" color="tertiary" > 
+  
+
+    <ion-title>
+
+      Car Issues
+
+    </ion-title>
+
+  </ion-toolbar>
+
+</ion-header>
+
+
+
+
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+
+    <img src="https://www.bankrate.com/2022/07/27111118/flat-tire-statistics.jpg?auto=webp&optimize=high&crop=16:9" />
+
+    <ion-card-header>
+
+      <ion-card-title> Flat Tire </ion-card-title>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-button (click)="navigate1()"> Instructions </ion-button>
+
+      <ion-button (click)="openVideo1()"> Video </ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+
+
+
+
+  <ion-card>
+
+    <img alt="Dead Battery (Jump-start)" src="https://repairsmith-prod-wordpress.s3.amazonaws.com/2022/09/car-battery.jpg" />
+
+    <ion-card-header>
+
+      <ion-card-title> Dead Battery (Jump-start) </ion-card-title>
+
+    </ion-card-header>  
+
+ 
+
+    <ion-card-content>
+
+      <ion-button (click)="navigate2()"> Instructions </ion-button>
+
+      <ion-button (click)="openVideo2()"> Video </ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+
+
+
+
+  <ion-card>
+
+    <img alt="Engine Overheating" src="https://images.cdn.circlesix.co/image/1/640/0/uploads/posts/2017/02/935ae18d2c70ed1866b7f107ff294ab0.jpg" />
+
+    <ion-card-header>
+
+      <ion-card-title> Engine Overheating </ion-card-title>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-button (click)="navigate3()"> Instructions </ion-button>
+
+      <ion-button (click)="openVideo3()"> Video </ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+
+
+
+
+  <ion-card>
+
+    <img alt="Engine Oil Leak" src="https://news.kixxoil.com/wp-content/uploads/2022/07/Kixx-Newsroom_Smart-Tips_4_%EB%B3%B8%EB%AC%B8-1_v1.jpg" />
+
+    <ion-card-header>
+
+      <ion-card-title> Engine Oil Leak</ion-card-title>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-button (click)="navigate4()"> Instructions </ion-button>
+
+      <ion-button (click)="openVideo4()"> Video </ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+
+
+
+
+  <ion-card>
+
+    <img alt="Faulty Spark Plugs" src="https://oards.com/wp-content/uploads/2020/02/dirty-spark-plug.jpg" />
+
+    <ion-card-header>
+
+      <ion-card-title> Faulty Spark Plugs </ion-card-title>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-button (click)="navigate5()"> Instructions </ion-button>
+
+      <ion-button (click)="openVideo5()"> Video </ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+
+ 
+
+  <ion-card>
+
+    <img alt="Brake Pad Replacement" src="https://sangsinusa.com/wp-content/uploads/2021/04/iStock-92377217-1024x683.jpg" />
+
+    <ion-card-header>
+
+      <ion-card-title> Brake Pad Replacement </ion-card-title>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-button (click)="navigate6()"> Instructions </ion-button>
+
+      <ion-button (click)="openVideo6()"> Video </ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-button (click) = "navigatetohome()">
+    <ion-icon slot="icon-only" name="home" color = "tertiary"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    
+  
+      <ion-buttons slot="end">
+    <ion-button>
+    <ion-icon slot="icon-only" name="search" color = "tertiary"></ion-icon>
+    </ion-button>
+    <ion-button>
+    <ion-icon slot="icon-only" name="settings" color = "tertiary"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    </ion-toolbar>
+  </ion-footer>

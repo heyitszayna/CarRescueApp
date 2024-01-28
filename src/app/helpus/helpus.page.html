@@ -1,0 +1,37 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+     Find Help 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button (click)="RouteToNextNearest()" expand="block"> Next Nearest Mechanic </ion-button>
+  <ion-button (click)="mechanics4star()" expand="block">Show Mechanics Above 4 Stars</ion-button>
+  <ion-button (click)="mechanics3star()" expand="block">Show Mechanics Above 3 Stars</ion-button>
+  <ion-button (click)="findingnearestusers()" expand="block">Show Nearby Users</ion-button>
+  <div #map id="map"></div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-button (click) = "navigatetohome()">
+    <ion-icon slot="icon-only" name="home" color = "tertiary"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    
+  
+      <ion-buttons slot="end">
+    <ion-button>
+    <ion-icon slot="icon-only" name="search" color = "tertiary"></ion-icon>
+    </ion-button>
+    <ion-button>
+    <ion-icon slot="icon-only" name="settings" color = "tertiary"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    </ion-toolbar>
+  </ion-footer>

@@ -1,0 +1,25 @@
+<body bgcolor="#1D267D">
+
+<ion-content class="bgbg" >
+  <div class="logo-container">
+    <img src="assets/login.png" alt="Logo" class="logo-image">
+
+  </div>
+  
+    <ion-list>
+      <ion-item class="bgbg">
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="email" [(ngModel)]="email"></ion-input>
+      </ion-item>
+  
+      <ion-item class="bgbg">
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <ion-button expand="full" (click)="login()" class="button">Login</ion-button>
+  </ion-content>
+  
+
+
